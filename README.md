@@ -1,6 +1,6 @@
 <div align="center">
 
-# F1 Tower
+<img src="docs/banner.png" alt="F1 Tower — ESP32-S3 live timing panel on a 170×320 ST7789" width="1100">
 
 **ESP32-S3 上的 F1 实时计时牌 · Mercedes-AMG Petronas 涂装**
 
@@ -156,6 +156,7 @@ f1tower/
 tools/
   gen_assets.py  生成字体与车标遮罩
   render_ui.py   离线渲染固件 UI（README 里的截图）
+  make_banner.py 合成 README 横幅（docs/banner.png）
   preview_*.py   车标/启动页预览
   wifiscan/      链路诊断 sketch（pmf、重连原因码）
 ```
