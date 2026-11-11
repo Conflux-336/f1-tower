@@ -1,0 +1,17 @@
+# credentials — never commit
+f1tower/secrets.h
+secrets.h
+
+# arduino-cli / compiler output
+build/
+*.bin
+*.elf
+*.map
+*.hex
+
+# macOS
+.DS_Store
+
+# python
+__pycache__/
+*.pyc
